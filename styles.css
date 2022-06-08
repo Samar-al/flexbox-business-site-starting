@@ -1,0 +1,468 @@
+html{
+    font-size: 16px;
+    font-family:'Raleway', sans-serif ;
+}
+body{
+    background-image: url('jonathan-kemper-oHCalaoeD0Q-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   /* background-color: rgb(235, 219, 182);*/
+}
+
+header .theTitle{
+    background-image: url('abolfazl-ranjbar-HHP4NorTBbM-unsplash.jpg');
+    text-align: center;
+    
+
+}
+
+header .theTitle h1{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 600;    
+    font-size: 4rem;
+    color: white;
+    letter-spacing: 1.1rem;
+    padding: 3rem;
+    border: 2px solid black;
+}
+
+.navbar .list{
+    background-color:rgb(19, 103, 37);
+    box-shadow: 0px 0px 10px rgba(106, 106, 106, 0.625);
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar .list .nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.navbar .list .nav-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .list .nav-item a:hover{
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: yellow;
+  transition: all 200ms ease-in;
+}
+
+.navbar .list .nav-item:first-child{
+   margin-right: auto;
+   margin-left: 2rem;
+   
+}
+
+
+#logo{
+    width: 25%;
+    height: auto;
+    border-radius: 30%;
+    border: 1px solid white;
+}
+#logo:hover{
+    width: 30%;
+}
+
+.btn{
+    font-family: 'Raleway', sans-serif ;
+    font-size: 1rem;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.btn:hover{
+    background-color: yellowgreen;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#pres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('dan-gold-4_jhDO54BYg-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    border: 2px solid white;
+    flex-shrink: 1;
+    
+    height: 70rem;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.catchy{
+    background-color: rgb(127, 21, 61);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px solid white;
+    z-index: 1;
+}
+/*#veget{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+    opacity: 0.6;
+}*/
+
+#catchphrase1, #catchphrase2{
+    color:white;
+    text-align: center;
+    font-family: 'dancing script', cursive;
+    line-height: 3;
+    z-index: 1;
+    
+
+}
+#catchphrase1{
+    font-size: 2.5rem;
+}
+#catchphrase2{
+    font-size: 1.5rem;
+}
+
+
+
+footer{
+   
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px 0px 10px rgba(106, 106, 106, 0.625);
+    width: 99%;
+    background-color: rgb(19, 103, 37);
+    text-align: end;
+}
+footer .navfoot ul li{
+    display: inline;
+    padding: 1rem;
+} 
+
+footer .navfoot ul li a{
+    color: white;
+   
+
+}
+
+.Menu-item{
+    font-family: 'Dancing Script', cursive;  
+}
+@media screen and (max-width: 291px){
+    header .theTitle H1{
+        font-size: 0.5rem;
+    }
+}
+@media screen and (min-width: 292px) and (max-width: 400px) {
+    header .theTitle H1{
+      font-size: 2rem;  
+    }
+}
+
+@media screen and (max-width: 600px){
+   
+    header .navbar .list{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 2rem;
+       
+          
+    }
+    .navbar .list .nav-item{
+        flex-grow: 1;
+    }
+
+    .navbar .list .nav-item a{
+        display: block;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .navbar .list .nav-item:first-child{
+        margin-right: 1rem;
+        margin-left: auto;
+
+    }
+
+    #logo{
+       width: 55%;
+       height: auto;
+       margin: 0 auto;
+    }
+  .btn{
+      margin-top: 2rem;
+  }
+    footer{
+        text-align: center;
+    }
+
+}
+
+/*Styling of the Local Product page */
+
+.LP-header{
+    position: relative;
+    top: 1rem;
+    border: 2px solid green;
+    text-align: center;
+    padding: 3rem 0;
+    color: white;
+}
+.Q{
+    padding-top: 1rem;
+    text-align: center;
+    color: rgb(237, 96, 133);
+}
+    
+.text{
+    border: 1px solid rgb(237, 96, 133);
+}
+#Q2{
+    text-align: center;
+    color:rgb(237, 96, 133);
+    text-decoration: underline;
+
+}
+.text1{
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+   
+    color: antiquewhite;
+    line-height: 3;
+
+}
+.flex-container{
+    display: flex;
+    border: 2px solid rgb(237, 96, 133);
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 5rem 0.1rem;
+    width: 100%;
+    height: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+    
+        
+}
+
+.flex-item{
+    width: 25rem;
+    height: 20rem;
+    overflow: hidden;
+    border: 1px solid white;
+    justify-items: center;
+    background-color: rgba(255, 121, 121, 0.6);
+    flex-shrink: 1;
+   
+    
+    
+}
+
+.flex-item img{
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem 0;
+    
+}
+
+.flex-item p{
+    position: relative;  
+    left: 0.3rem;
+    font-weight: bold;
+      
+
+}
+@media screen and (max-width: 840px) {
+    .flex-container{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        
+        overflow: visible;
+        
+    }
+    .flex-item{
+        max-width: 80%;
+        max-height: auto;
+        align-items: center;
+
+    }
+    .flex-item img{
+        max-width: 80%;
+        max-height: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    body .navbar .list{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 2rem;
+       
+          
+    }
+    .navbar .list .nav-item{
+        flex-grow: 1;
+    }
+
+    .navbar .list .nav-item a{
+        display: block;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .navbar .list .nav-item:first-child{
+        margin-right: 1rem;
+        margin-left: auto;
+
+    }
+
+    #logo{
+       width: 55%;
+       height: auto;
+       margin: 0 auto;
+    }
+  .btn{
+      margin-top: 2rem;
+  } 
+  .Menu-item{
+      max-width: 10rem;
+      max-height: 60%;
+  }
+
+  .team-container{
+      align-content: space-around;
+    
+  }
+  .team-item{
+    max-width: 50% ;
+    max-height: 50%;
+    margin-top: 2rem;
+}
+ .team-item img{
+    max-width: 8rem;
+    max-height: 8rem; 
+ }
+}
+
+/*Styling the Menu*/
+.headMenu{
+    position: relative;
+    text-align: center;
+    border: 1px solid white;
+    padding: 1rem;
+    color: white;
+    top: 1rem;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    border: 2px solid white;
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-top: 4rem;
+   
+    
+}
+@keyframes menuAnim {
+    0% {background-color: blanchedalmond;}
+    25% {background-color: rgb(249, 215, 164) ;}
+    75% {background-color:  rgb(251, 206, 140)}
+    100% {background-color: blanchedalmond;}
+    
+}
+.Menu-item{
+    align-items: center;
+    border: 2px solid black;
+    flex-shrink: 1;
+    width: 30%;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: blanchedalmond;
+    text-align: center;
+    animation: menuAnim 4s ease 1s infinite;
+
+}
+.menu-container .Menu-item h3{
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: rgb(112, 35, 183);
+}
+
+.menu-container .Menu-item p span{
+    text-decoration: underline;
+}
+
+/*Styling The team page*/
+.teamHead{
+    position: relative;
+    text-align: center;
+    border: 2px solid white;
+    width: 100%;
+    padding: 1rem 0;
+    color: white;
+    top: 1rem;
+
+}
+.team-container{
+    display: flex;
+    margin-top: 3rem;
+    border: 2px solid rgb(237, 96, 133);
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 5rem 0;
+    width: 100%;
+    height: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.team-item{
+    width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+    border: 1px solid white;
+    justify-items: center;
+    background-color: rgba(255, 121, 121, 0.6);
+    flex-shrink: 1;  
+}
+
+.team-item img{
+    display: block;
+    margin: 0 auto;
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem 0;
+}
+
+.team-item .captionTeam{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
