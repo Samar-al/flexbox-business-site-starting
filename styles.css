@@ -177,7 +177,8 @@ footer .navfoot ul li a{
     header .navbar .list{
         flex-direction: column;
         flex-wrap: wrap;
-        margin: 2rem;
+        margin: 0rem;
+        width: 100%;
        
           
     }
@@ -315,7 +316,8 @@ footer .navfoot ul li a{
     body .navbar .list{
         flex-direction: column;
         flex-wrap: wrap;
-        margin: 2rem;
+        margin: 0rem;
+        width: 100%;
        
           
     }
