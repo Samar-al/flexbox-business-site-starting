@@ -183,7 +183,7 @@ footer .navfoot ul li a{
           
     }
     .navbar .list .nav-item{
-        flex-grow: 1;
+        margin-right: 0;
     }
 
     .navbar .list .nav-item a{
@@ -193,7 +193,7 @@ footer .navfoot ul li a{
     }
 
     .navbar .list .nav-item:first-child{
-        margin-right: 1rem;
+        margin-right: auto;
         margin-left: auto;
 
     }
@@ -206,8 +206,14 @@ footer .navfoot ul li a{
   .btn{
       margin-top: 2rem;
   }
-    footer{
-        text-align: center;
+  footer{
+      text-align: center;
+      
+     
+  }
+    .navfoot ul{
+     margin-right: 3rem;
+
     }
 
 }
@@ -303,8 +309,10 @@ footer .navfoot ul li a{
     }
     .flex-item{
         max-width: 80%;
-        max-height: auto;
+        max-height: 80%;
         align-items: center;
+        margin-top: 1rem;
+
 
     }
     .flex-item img{
@@ -321,18 +329,18 @@ footer .navfoot ul li a{
        
           
     }
-    .navbar .list .nav-item{
+    body .navbar .list .nav-item{
         flex-grow: 1;
     }
 
-    .navbar .list .nav-item a{
+    body .navbar .list .nav-item a{
         display: block;
         padding: 2rem;
         text-align: center;
     }
 
-    .navbar .list .nav-item:first-child{
-        margin-right: 1rem;
+    body .navbar .list .nav-item:first-child{
+        margin-right: auto;
         margin-left: auto;
 
     }
