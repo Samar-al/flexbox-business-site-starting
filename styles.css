@@ -3,6 +3,7 @@ html{
     font-family:'Raleway', sans-serif ;
 }
 body{
+    
     background-image: url('jonathan-kemper-oHCalaoeD0Q-unsplash.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -143,9 +144,10 @@ footer{
     position: fixed;
     bottom: 0;
     box-shadow: 0px 0px 10px rgba(106, 106, 106, 0.625);
-    width: 99%;
+    width: -webkit-fill-available;
     background-color: rgb(19, 103, 37);
     text-align: end;
+    margin-right: 3.9rem;
 }
 footer .navfoot ul li{
     display: inline;
@@ -326,8 +328,7 @@ footer .navfoot ul li a{
         flex-wrap: wrap;
         margin: 0rem;
         width: 100%;
-       
-          
+              
     }
     body .navbar .list .nav-item{
         flex-grow: 1;
